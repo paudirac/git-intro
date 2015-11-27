@@ -1,14 +1,12 @@
-- title : FsReveal
+- title : Introduction to Git
 - description : Introduction to Git
 - author : Pau Cervera
-- theme : night
+- theme : black
 - transition : default
 
 ***
 
 ![Git](http://imgs.xkcd.com/comics/git.png)
-
-***
 
 ***
 
@@ -37,9 +35,101 @@
 * git pull
 
 ***
+- data-background : images/red-pill.png
+
+### git init
+
+***
+
+    $ cd tmp
+    $ mkdir my-project
+    $ cd my-project
+
+---
+
+    $ git init
+    Initialized empty Git repository in /home/pau/tmp/my-project/.git/
+
+***
+
+Now you have source control
+
+---
+
+And more important: control over source code!
+
+***
+
+# Interlude
+
+---
+
+**Neo** was trying to understand **git** until a kid on
+IRC (*who has never been exposed to obsolet VCSs like SVN*) told him:
+
+***
+- data-background : images/thereisnospoon.jpg
+
+### There is no spoon
+
+---
+
+And he was enlightened
+
+
+
+***
+- data-background: images/cloudchamberwhite.jpg
+### Git Standard Model {#patata}
+
+---
+
+### Elementary particles
+
+* A **blob** is an object.
+* A **tree** is an object.
+* A **commit** is an object.
+
+---
+
+### Meta-physics
+
+An **object** is a bunch of bytes with a **sha1**.
+
+---
+
+#### Elementary particles & metaphysics
+
+* A **blob** is a bunch of bytes with a sha1.
+* A **tree** is a bunch of bytes with a sha1.
+* A **commit** is a bunch of bytes with a sha1.
+
+---
+
+### Interactions
+
+* Any commit has a **parent** which is itself a commit. (Except for
+the first one, which is the Big Bang).
+* Any commit has a **tree**.
+* Any tree is made of **blobs** and possibly other **tree**s.
+
+---
+
+#### At this point, Neo understood that "There is no spoon"
+
+
+***
+- data-background: images/zen.jpg
+
+### The zen of git
+
+***
 
 ### References
 
+* [The git parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 * [A Tale of Three Trees](http://www.infoq.com/presentations/A-Tale-of-Three-Trees)
+* [Pro Git](http://git-scm.com/book/en/v2)
+* [Git magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
 
 ***
