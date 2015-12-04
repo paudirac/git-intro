@@ -17,6 +17,7 @@
 ### First course
 
 * git init
+* git add
 * git commit
 
 ---
@@ -35,32 +36,47 @@
 * git pull
 
 ***
-- data-background : images/red-pill.png
+
+- data-background : images/firstCourse.jpg
 
 ### git init
 
-***
+---
 
-    $ cd tmp
-    $ mkdir my-project
-    $ cd my-project
+### git add
 
 ---
 
-    $ git init
-    Initialized empty Git repository in /home/pau/tmp/my-project/.git/
+### git commit
 
 ***
 
-Now you have source control
+- data-background : images/secondCourse.jpg
+
+### git branch
 
 ---
 
-And more important: control over source code!
+### git merge
 
 ***
 
-# Interlude
+- data-background : images/deserts.jpg
+
+### git fetch
+
+---
+
+### git merge
+
+---
+
+### git pull = git fetch + git merge
+
+***
+- data-background: images/zen.jpg
+
+### Interlude: The zen of git
 
 ---
 
@@ -76,11 +92,17 @@ IRC (*who has never been exposed to obsolet VCSs like SVN*) told him:
 
 And he was enlightened
 
+***
 
+- data-background: images/red-pill.png
+
+### Ready?
 
 ***
-- data-background: images/cloudchamberwhite.jpg
-### Git Standard Model {#patata}
+
+- data-background: images/cloudchamber2.jpg
+
+### Git Standard Model
 
 ---
 
@@ -119,9 +141,7 @@ the first one, which is the Big Bang).
 
 
 ***
-- data-background: images/zen.jpg
 
-### The zen of git
 
 ***
 
